@@ -3,7 +3,7 @@ import { baseAPI } from "../App";
 import Question from "../Components/Quizz/Question";
 import ScoreView from "../Components/Quizz/ScoreView";
 
-const Dashboard = () => {
+const Dashboard = ({ logout }) => {
   const [userData, setUserData] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState([]);
@@ -74,7 +74,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="bg-white flex flex-col justify-center items-center p-8 rounded-lg shadow-lg w-full max-w-[77%] min-h-[77vh]">
+    <div className="bg-white flex flex-col justify-center items-center p-8 rounded-lg shadow-lg w-full max-w-[77%] min-h-[77vh] my-10">
       {!currentQuestion && (
         <>
           <h3 className="text-2xl font-bold mb-6 text-center">Dashboard</h3>
@@ -99,6 +99,13 @@ const Dashboard = () => {
             >
               Start
             </button>
+
+            <button
+              onClick={logout}
+              className="bg-red-500 hover:bg-red-700 text-white font-bold py-4 px-4 text-3xl rounded-lg w-full mt-4"
+            >
+              Logout
+            </button>
           </div>
         </>
       )}
@@ -116,7 +123,12 @@ const Dashboard = () => {
       )}
 
       {scoreData && (
-        <ScoreView questions={questions} scoreData={scoreData} restartQuiz={restartQuiz} goHome={goHome} />
+        <ScoreView
+          questions={questions}
+          scoreData={scoreData}
+          restartQuiz={restartQuiz}
+          goHome={goHome}
+        />
       )}
     </div>
   );
