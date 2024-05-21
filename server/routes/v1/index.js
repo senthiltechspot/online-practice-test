@@ -1,10 +1,12 @@
 import express from "express";
-import userRoute from "./authRoutes.js";
+import authRoutes from "./authRoutes.js";
+import userRoute from "./userRoutes.js";
 import quizRoutes from "./quizRoutes.js";
 
 const router = express.Router();
 
-router.use("/auth", userRoute);
+router.use("/auth", authRoutes);
+router.use("/user", userRoute);
 router.use("/quiz", quizRoutes);
 
 router.use("/check", (req, res) => {

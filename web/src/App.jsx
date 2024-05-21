@@ -32,7 +32,7 @@ function App() {
     localStorage.removeItem("token");
   };
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-yellow-500 to-red-400">
+    <div className="flex flex-col justify-center items-center min-h-screen bg-gradient-to-r from-yellow-500 to-red-400">
      { authToken ? <Dashboard logout={logout} /> : <Auth setAuthToken={setAuthToken} />}
     </div>
   );
