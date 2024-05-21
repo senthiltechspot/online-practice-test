@@ -1,0 +1,282 @@
+[
+  {
+    "_id": "664cb25f115161b2f0316c3e",
+    "questionText": "What is 2 + 2?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848b6",
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848b7",
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848b8",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848b9",
+        "text": "6",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 1,
+    "tags": ["arithmetic"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c3f",
+    "questionText": "What is the area of a triangle with base 5 and height 10?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848ba",
+        "text": "25",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848bb",
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848bc",
+        "text": "50",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848bd",
+        "text": "15",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 2,
+    "tags": ["geometry"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c40",
+    "questionText": "What is the capital of India?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848be",
+        "text": "Delhi",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848bf",
+        "text": "Mumbai",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848c0",
+        "text": "Chandigarh",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848c1",
+        "text": "Kolkata",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 3,
+    "tags": ["geography"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c41",
+    "questionText": "What is the capital of France?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848c2",
+        "text": "Paris",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848c3",
+        "text": "London",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848c4",
+        "text": "Berlin",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848c5",
+        "text": "Madrid",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 4,
+    "tags": ["geography"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c42",
+    "questionText": "What is the capital of USA?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848c6",
+        "text": "New York",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848c7",
+        "text": "Los Angeles",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848c8",
+        "text": "Chicago",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848c9",
+        "text": "Washington DC",
+        "isCorrect": true
+      }
+    ],
+    "difficulty": 5,
+    "tags": ["geography"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c43",
+    "questionText": "What is the capital of Canada?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848ca",
+        "text": "Toronto",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848cb",
+        "text": "Vancouver",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848cc",
+        "text": "Ottawa",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848cd",
+        "text": "Calgary",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 6,
+    "tags": ["geography"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c44",
+    "questionText": "What is the capital of Brazil?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848ce",
+        "text": "Brasilia",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848cf",
+        "text": "Sao Paulo",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848d0",
+        "text": "Rio de Janeiro",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848d1",
+        "text": "Salvador",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 7,
+    "tags": ["geography"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c45",
+    "questionText": "What is the capital of Germany?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848d2",
+        "text": "Berlin",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848d3",
+        "text": "Munich",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848d4",
+        "text": "Frankfurt",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848d5",
+        "text": "Hamburg",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 8,
+    "tags": ["geography"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c46",
+    "questionText": "What is the capital of Japan?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848d6",
+        "text": "Tokyo",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848d7",
+        "text": "Osaka",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848d8",
+        "text": "Kyoto",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848d9",
+        "text": "Nagoya",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 9,
+    "tags": ["geography"]
+  },
+  {
+    "_id": "664cb25f115161b2f0316c47",
+    "questionText": "What is the capital of Australia?",
+    "options": [
+      {
+        "_id": "664cb6131587479b71c848da",
+        "text": "Sydney",
+        "isCorrect": true
+      },
+      {
+        "_id": "664cb6131587479b71c848db",
+        "text": "Melbourne",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848dc",
+        "text": "Brisbane",
+        "isCorrect": false
+      },
+      {
+        "_id": "664cb6131587479b71c848dd",
+        "text": "Perth",
+        "isCorrect": false
+      }
+    ],
+    "difficulty": 10,
+    "tags": ["geography"]
+  }
+]

@@ -41,7 +41,7 @@ const signup = async (req, res) => {
         console.error("JWT signing error:", err);
         return res.status(500).json({ msg: "Server error" });
       }
-      res.json({ token });
+      res.status(200).json({ token });
     });
   } catch (err) {
     console.error("Signup error:", err.message);

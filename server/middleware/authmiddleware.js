@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 import keys from '../config/keys.js';
 
-module.exports = (req, res, next) => {
+export const auth = (req, res, next) => {
     const token = req.header('x-auth-token');
 
     if (!token) {
