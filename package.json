@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm run frontend:dev\" \"npm run backend:dev\"",
     "frontend:dev": "set /p dotenv=<.env && cd web && cross-env dotenv=%dotenv% vite",
     "frontend:build": "set /p dotenv=<.env && cd web && cross-env dotenv=%dotenv% vite build",
-"build": "cd web && vite build"
+"build": "cd web && vite build",
     "frontend:preview": "cd web && vite preview",
     "backend:dev": "nodemon --env-file=.env ./server/server.js",
     "backend": "node --env-file=.env ./server/server.js",
